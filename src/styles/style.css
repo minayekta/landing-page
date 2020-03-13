@@ -40,6 +40,24 @@ background-color: blueviolet;
     background-size: cover;
     background-position: center;
 }
+
+.nav-list{
+    margin: 0;
+    padding:  2em ;
+}
+
+.nav-item{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-link{
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link:hover {
+    color: grey;
+  }
 .img{
     width: 50%;
     
@@ -70,8 +88,13 @@ background-color: blueviolet;
     border-radius: 3em;
     
 }
+.footer{
+    text-align: center;
+}
 .social{
-    /* position: absolute; */
-    background-color: chartreuse;
+    display: inline-block;
+    color: lavenderblush;
+    /* background-color: chartreuse; */
+    padding-bottom:  3em;
 }
 
