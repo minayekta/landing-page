@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width-device-width">
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
         <link rel="stylesheet" href="styles/style.css">
         <!-- <script src="https://use.fontawesome.com/releases/v5.0.7/css/all.css"></script> -->
@@ -13,7 +13,7 @@
         </title>
     </head>
     <body>
-        <!-- <div class="clearfix"> -->
+        
            
             
             <header class="header">
@@ -31,11 +31,14 @@
                         </li>
                       </ul>
                  </nav>
-                <img class="img" src="../src/styles/img/illustration-mockups.svg"/>
+                 <div class="div__img__header">
+                    <img class="img" src="../src/styles/img/illustration-mockups.svg"/>
+                 </div>
             </header>
         </div>
     <!-- </div> -->
-        <div class="inner__container ">
+    <div class="main__float">
+        <div class="inner__container clearfix ">
         <main class="main " >
             <h1 class="title"> this is a test landdingpage mina</h1>
             <p class="text">
@@ -44,14 +47,16 @@
             <button class="submit__btn"> submit </button>
         </main>
         </div>
+    </div>
 
         <div class="inner__container"> 
         <footer class="footer">
           
             <div class="social">
-            <i class="fab fa-telegram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
+            <i class= "fab fa-telegram social__item" aria-hidden="true" ></i>
+            <i class="fab fa-instagram social__item"></i>
+            <i class="fab fa-facebook social__item"></i>
+            
             </div>
             
         </footer>

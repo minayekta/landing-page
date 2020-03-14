@@ -58,8 +58,23 @@ background-color: blueviolet;
 .nav-link:hover {
     color: grey;
   }
-.img{
+
+
+  @media (min-width: 1024px){
+  .div__img__header{
+      float: left;
+      width: 50%;
+  }
+  .main__float{
+    float: right;
     width: 50%;
+  }
+}
+
+
+.img{
+    margin-top: 2em;
+    width: 40em;
     
 }
 
@@ -70,14 +85,14 @@ background-color: blueviolet;
  }
 
 .title{
-    font-size: 2em;
-    margin: 1em 5em;
+    font-size: 2.5em;
+    margin: 1em 3em;
 }
 
 .text{
     margin: 2em 4em;
     line-height: 2em;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .submit__btn{
@@ -96,5 +111,10 @@ background-color: blueviolet;
     color: lavenderblush;
     /* background-color: chartreuse; */
     padding-bottom:  3em;
+   
+}
+
+.social__item{
+   padding: 0.3em;
 }
 
