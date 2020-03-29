@@ -1,6 +1,7 @@
 body{
 /* text-align: center; */
-background-color: blueviolet;
+background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg") no-repeat center
+
 }
 
 *{
@@ -34,11 +35,7 @@ background-color: blueviolet;
 }
 .header{
     text-align:center ;
-    background-image: url('./img/bg-mobile.svg');
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 
 .nav-list{
@@ -68,6 +65,10 @@ background-color: blueviolet;
   .main__float{
     float: right;
     width: 50%;
+  }
+  .submit__btn{
+      float: left;
+
   }
 }
 
@@ -107,14 +108,28 @@ background-color: blueviolet;
     text-align: center;
 }
 .social{
-    display: inline-block;
-    color: lavenderblush;
+    /* display: inline-block; */
+    /* color: lavenderblush; */
     /* background-color: chartreuse; */
-    padding-bottom:  3em;
+    /* padding-bottom:  3em; */
+    display: block;
+    position: absolute;
+    top: 90em;
+    left: 85vw;
    
 }
 
 .social__item{
-   padding: 0.3em;
+  
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0.5rem;
+  color: #fff;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
+  border-radius: 100%;
+
 }
 
