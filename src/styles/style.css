@@ -55,7 +55,12 @@ background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg") no-repeat center
 .nav-link:hover {
     color: grey;
   }
-
+  
+  .logo_image{
+    width: 30%;
+    margin-right: 20px;
+    float: left;
+}
 
   @media (min-width: 1024px){
   .div__img__header{
